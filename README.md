@@ -1,31 +1,32 @@
 # desafioFABMAQ
+
 Desafio feito pela empresa FABMAQ para desenvolver um jogo em C/C++ para linux e windows
 
 Mini Jogo desenvolvido em C/C++ para execução em Linux e Windows 
 
-Tentando seguir as diretivas passadas através do enunciado do desafio, foi criado um mini jogo com as seguintes características. 
-
+Tentando seguir as directivas passadas através do enunciado do desafio, foi criado um mini jogo com as seguintes características. 
+  
      1) O jogo inicia em uma tela exibindo as informações referente aos créditos e rodadas definida como 0.  
 
      2) Para iniciar uma rodada o jogador deve apertar a tecla F1 e ter ao menos 1 crédito disponível, caso não tenha o jogador deverá utilizar a tecla F2 para adicionar créditos. 
 
-     3) Estão disponíveis no jogo 50 objetos variados, todos esses objetos tem uma exibição de textura diferente um dos outros. 
+     3) Estão disponíveis no jogo 50 objectos variados, todos esses objectos tem uma exibição de textura diferente um dos outros. 
 
-     4) Ao iniciar uma rodada são sorteados 5 objetos (que irei chamar de raffle) dentre os 50 disponíveis no jogo para representar a combinação necessária para uma vitoria, esses 5 objetos passam a ser exibidos na parte superior da tela. 
+     4) Ao iniciar uma rodada são sorteados 5 objectos (que irei chamar de raffle) dentre os 50 disponíveis no jogo para representar a combinação necessária para uma vitória, esses 5 objectos passam a ser exibidos na parte superior da tela. 
 
-    5) Logo apos o sorteio dos objetos acima, é iniciado um novo sorteio de mais 5 objetos (que irei chamar de player) dentre os 50 disponíveis no jogo, para verificar se existe alguma combinação com os objetos “raffle” sorteados anteriormente e assim definir a vitoria, esses objetos sorteados ficam armazenados e não são exibidos inicialmente. 
+    5) Logo após o sorteio dos objectos acima, é iniciado um novo sorteio de mais 5 objectos (que irei chamar de player) dentre os 50 disponíveis no jogo, para verificar se existe alguma combinação com os objectos “raffle” sorteados anteriormente e assim definir a vitoria, esses objectos sorteados ficam armazenados e não são exibidos inicialmente. 
 
-    6) Inicia a jogada inicia e o objeto “player” se move em direção ao objeto "raffle" com velocidade definida pelo sistema. 
+    6) Ao iniciar a jogada o objecto “player” se move em direcção ao objecto "raffle" com velocidade definida pelo sistema. 
 
-    7) Ao finalizar o movimento do objeto “player” é verificado se os objetos são iguais, caso os objetos sejam iguais é exibida uma imagem representando uma vitoria sobre o objeto “raffle” e é somado 10 de crédito ao jogador. Caso os objetos não sejam iguais é exibida uma mensagem representando uma derro sobre o bjeto “raffle”. 
+    7) Ao finalizar o movimento do objecto “player” é verificado se os objectos são iguais, caso os objectos sejam iguais é exibida uma imagem representando uma vitória sobre o objecto “raffle” e é somado 10 de crédito ao jogador. Caso os objectos não sejam iguais é exibida uma mensagem representando uma derrota sobre o objecto “raffle”. 
 
-    8) Ao finalizar o movimento do primeiro objeto “player”, é iniciado o seguinte, e assim por diante até finalizar a rodada apos o termino do movimento do objeto "player” numero 5. 
+    8) Ao finalizar o movimento do primeiro óbito “player”, é iniciado o seguinte, e assim por diante até finalizar a rodada após o término do movimento do objecto "player” numero 5. 
  
     9) Ao iniciar uma rodada o jogador tem a opção de apertar a tecla F1-START e pausar o jogo, ao apertar novamente o jogo volta a rodar. 
 
-    10) Ao finalizar uma rodada o jogador tem que apertar a tecla F1-START para iniciar uma nova rodada, caso ainda tenha creditos. 
+    10) Ao finalizar uma rodada o jogador tem que apertar a tecla F1-START para iniciar uma nova rodada, caso ainda tenha créditos. 
 
-    11) O jogador pode diminuir ou aumentas a velocidade dos objetos, utilizando respetivamente as teclas F4 e F5. 
+    11) O jogador pode diminuir ou aumentar a velocidade dos objectos, utilizando respectivamente as teclas F4 e F5. 
 
     12) A cada rodada iniciada é adicionado 1 ao contador de ROUNDS exibido na tela. 
 
@@ -45,15 +46,15 @@ UI/Informações exibidas na tela:
 
 Teclas/Botões:  
 
-    F1:  Botão de START para iniciar uma rodada de sorteio e caso uma rodada esteja em andamento o mesmo botão PAUSE o jogo.  
+     F1:  Botão de START para iniciar uma rodada de sorteio e caso uma rodada esteja em andamento o mesmo botão PAUSE o jogo.  
 
     F2:  Botão para adicionar CREDITS IN, cada vez que é pressionado adiciona 1 de crédito para o jogador. 
 
     F3: Botão para transferir os créditos para a "carteira” do jogador, apenas se tiver créditos disponíveis. 
 
-    F4: Botão para diminuir a velocidade em que os objetos e consequentemente a rodada acontece OBS: O mínimo de velocidade é 1. 
+    F4: Botão para diminuir a velocidade em que os objectos se movem e consequentemente a velocidade da rodada. OBS: O mínimo de velocidade é 1. 
 
-    F5: Botão para aumentar a velocidade em que os objetos e consequentemente a rodada acontece OBS: O máximo de velocidade é 25. 
+    F5: Botão para aumentar a velocidade em que os objectos se movem e consequentemente a velocidade da rodada. OBS: O máximo de velocidade é 25. 
 
  
 
@@ -65,7 +66,8 @@ Desenvolvimento/Código:
      https://github.com/PauloJJunior/desafioFABMAQ
           
 
-   O desenvolvimento do minijogo utilizou a linguagem C/C++ e como auxílio principal a biblioteca SDL2, procurei nomear as classes e variáveis para melhor entendimento do código, alem disso busquei comentar linha por linha a execução do código, caso exista alguma dúvida em alguma implementação ou parte especifica do código, favor entrar em contato. 
+   O desenvolvimento do minijogo utilizou a linguagem C/C++ e como auxílio principal a biblioteca SDL2, procurei nomear as classes e variáveis para melhor entendimento do código, alem disso busquei comentar linha por linha a execução do código, caso exista alguma dúvida em alguma implementação ou parte especifica do código, favor entrar em contacto. 
+
 
  
 Donwload
@@ -79,7 +81,7 @@ Donwload
 
 Instalação/Execução 
 
-   Tentei ao máximo incluir todos os arquivos necessários para a execução em suas respetivas builds, mas como mostrado abaixo existem alguns passos para serem seguidos especificamente para linux. 
+   TTentei ao máximo incluir todos os arquivos necessários para a execução em suas respectivas builds, mas como mostrado abaixo existem alguns passos para serem seguidos especificamente para Linux. 
    
 
 Linux: 
@@ -92,7 +94,7 @@ Linux:
 
        make run 
 
-    2) Instalar as bibliotecas necessárias para a execução do binário executando os seguintes comandos no terminal. 
+    2) Instalar as bibliotecas necessárias para a execução do binário, executando os seguintes comandos no terminal. 
 
        sudo apt-get install libsdl2-2.0 
 
