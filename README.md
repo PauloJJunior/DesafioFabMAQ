@@ -61,13 +61,13 @@ Teclas/Botões:
 
 Desenvolvimento/Código: 
 
-    O desenvolvimento do minijogo utilizou a linguagem C/C++ e como auxílio principal a biblioteca SDL2, procurei nomear as classes e variáveis para melhor entendimento do código, alem disso busquei comentar linha por linha a execução do código, caso exista alguma dúvida em alguma implementação ou parte especifica do código, favor entrar em contato. 
+   O desenvolvimento do minijogo utilizou a linguagem C/C++ e como auxílio principal a biblioteca SDL2, procurei nomear as classes e variáveis para melhor entendimento do código, alem disso busquei comentar linha por linha a execução do código, caso exista alguma dúvida em alguma implementação ou parte especifica do código, favor entrar em contato. 
 
  
 
 Instalação/Execução 
 
-    Tentei ao máximo incluir todos os arquivos necessários para a execução em suas respetivas builds, mas como mostrado abaixo existem alguns passos para serem seguidos especificamente para linux. 
+   Tentei ao máximo incluir todos os arquivos necessários para a execução em suas respetivas builds, mas como mostrado abaixo existem alguns passos para serem seguidos especificamente para linux. 
 
 Linux: 
 
