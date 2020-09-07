@@ -61,13 +61,26 @@ Teclas/Botões:
 
 Desenvolvimento/Código: 
 
+     Codigo Font Donwload:
+     https://github.com/PauloJJunior/desafioFABMAQ
+          
+
    O desenvolvimento do minijogo utilizou a linguagem C/C++ e como auxílio principal a biblioteca SDL2, procurei nomear as classes e variáveis para melhor entendimento do código, alem disso busquei comentar linha por linha a execução do código, caso exista alguma dúvida em alguma implementação ou parte especifica do código, favor entrar em contato. 
 
+ 
+Donwload
+
+     Linux: 
+     https://github.com/PauloJJunior/desafioFABMAQ/raw/master/Desafio_FABMAQ_Paulo_Jorge_Linux.zip
+
+     Windows: 
+     https://github.com/PauloJJunior/desafioFABMAQ/raw/master/Desafio_FABMAQ_Paulo_Jorge_Windows.zip
  
 
 Instalação/Execução 
 
    Tentei ao máximo incluir todos os arquivos necessários para a execução em suas respetivas builds, mas como mostrado abaixo existem alguns passos para serem seguidos especificamente para linux. 
+   
 
 Linux: 
 
