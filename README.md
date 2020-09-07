@@ -108,7 +108,7 @@ Linux:
 
 Windows:  
 
-    Basta fazer o download dos arquivos disponibilizados, extrair para uma paste de sua preferência e executar o Desafio_FABAMAQ _Paulo_Jorge.exe. 
+    Basta fazer o download dos arquivos disponibilizados, extrair para uma pasta de sua preferência e executar o Desafio_FABAMAQ _Paulo_Jorge.exe. 
 
  
 
